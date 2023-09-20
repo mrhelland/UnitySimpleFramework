@@ -35,6 +35,17 @@ namespace UnityEngine {
 			return new GameObject();
 		}
 
+		public static GameObject Instantiate(GameObject prefab) {
+			return new GameObject();
+		}
+
+		public static GameObject Instantiate(GameObject prefab, Vector3 position, Quaternion rotation) {
+			GameObject g = new GameObject();
+			g.transform.position = position;
+			g.transform.rotation = rotation;
+			return g;
+		}
+
 
 	}
 }

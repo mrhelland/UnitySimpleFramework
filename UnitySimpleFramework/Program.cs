@@ -7,9 +7,10 @@
   **/
 namespace UnityEngine {
 
-	public class Test {
+	public class Program {
 		public static void Main(string[] args) {
-
+			Debug.SetTime(1, 20, 37);
+			Debug.Log("Testing");
 		}
 	}
 

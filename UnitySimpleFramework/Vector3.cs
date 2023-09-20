@@ -14,6 +14,11 @@ namespace UnityEngine {
 			y = 0;
 			z = 0;
 		}
+		public Vector3(int x, int y, int z) {
+			this.x = x;
+			this.y = y;
+			this.z = z;
+		}
 		public Vector3(float x, float y, float z) {
 			this.x = x;
 			this.y = y;
